@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+    <title class="title">Ritz Paris</title>
+    <link rel="website icon" type="png" href="logo.png">
+</head>
+<body>
+    <nav>
+        <div class="nav__bar">
+            <div class="nav__header">
+                <div class="logo nav__logo">
+                    <img src="logo.png">
+                    <span>HOTEL<br>RITZ</span>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#home">home</a></li>  
+                <li><a href="#about">about</a></li>
+                <li><a href="#room">room</a></li>
+                <li><a href="#feature">feature</a></li>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#news">news</a></li>
+                <li><a href="#contact">contact us</a></li>
+            </ul>
+        </div> 
+    </nav>
+
+    <header class="header" id="home">
+        <div class="section__container header__container">
+            <p class="section__subheader">ABOUT US</p>
+            <h1>the impeccable one <br /> the core designed for you</h1>
+            <button class="btn">discover the place</button>
+        </div>
+    </header>
+
+    <section class="booking">
+        <div class="section__container booking__container">
+            <form action="/">
+                <div class="input__group">
+                    <label for="arrival">arrival date</label>
+                    <input type="date">
+                </div>
+                <div class="input__group">
+                    <label for="departure">departure date</label>
+                    <input type="date">
+                </div>
+                <div class="input__group">
+                    <label for="guests">guests</label>
+                    <input type="number" placeholder="no of guests">
+                </div>
+                <button class="btn">is this available?</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="section__container about__container">
+            <div class="about__grid">
+                <div class="about__image">
+                    <img src="yass2.jpg" alt="about">
+                </div>
+                <div class="about__card">
+                    <span><i class="ri-user-line"></i></span>
+                    <h4>A hotel of legend</h4>
+                    <p>A hotel of legend. As in the early days, the Ritz Paris is perfectly attuned to the rhythms of Parisian life.                       
+                    </p>
+                </div>
+                <div class="about__image">
+                    <img src="img3.webp" alt="about">
+                </div>
+                <div class="about__card">
+                    <span><i class="ri-calendar-check-line"></i></span>
+                    <h4>prestige suite</h4>
+                    <p>Our Prestige Suites bring the hotel's historic beauty to life.                       
+                    </p>
+                </div>
+            </div>
+            <div class="about__content">
+                <p class="section__subheader">about us</p>
+                <h2 class="section__header">explore the underground</h2>
+                <p class="section__description">
+                    A hotel of legend. As in the early days, the Ritz Paris is perfectly attuned to the rhythms of Parisian life. Combining majestic decor with a welcoming smile, it's the perfect encapsulation of the French "art of living": up with the times, festive, cosmopolitan, and elegant.
+                </p>
+                <button class="btn">book now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="room__container" id="room">
+        <p class="section__subheader">ROOMS</p>
+        <h2 class="section__header">hand picked rooms</h2>
+        <div class="room__grid">
+            <div class="room__card">
+                <img src="room1.webp" alt="room1">
+                <div class="room__card__details">
+                    <div>
+                        <h4>grand deluxe room</h4>
+                        <p>This elegantly spacious room is a perfect reflection of everything the Ritz stands for. Subtly distinctive furnishings and discreet silks combine to create a serene, confidential atmosphere that exeplifies the French art de vivre.</p>
+                    </div>
+                    <h3>2100$<span>/night</span></h3>
+                </div>
+            </div>
+            <div class="room__card">
+                <img src="room2.webp" alt="room2">
+                <div class="room__card__details">
+                    <div>
+                        <h4>executive junior suite</h4>
+                        <p>This suite has a very Parisian charm, combining comfort with l'art de vivre. Its elevated position sets it apart, offering unobstructed views and the beauty of natural daylight. The perfect opportunity to take in the sights... and widen your horizons.</p>
+                    </div>
+                    <h3>2950$<span>/night</span></h3>
+                </div>
+            </div>
+            <div class="room__card">
+                <img src="room3.webp" alt="room3">
+                <div class="room__card__details">
+                    <div>
+                        <h4>Suite Vendôme</h4>
+                        <p>Reviving the full splendor of Versailles in central Paris, the Suite Impériale is the jewel in our crown. Its décor has everything to enchant fans of history and fine living alike: an extraordinary space, bas-reliefs, listed woodwork, and an absolutely magical view of Place Vendôme. </p>
+                    </div>
+                    <h3>4100$<span>/night</span></h3>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="section__container intro__container">
+            <div class="intro__content">
+                <p class="section__subheader">intro video</p>
+                <h2 class="section__header">Come explore our luxury spot</h2>
+                <p class="section__description">
+                    Experience the luxury of a moment to yourself in a timeless setting, welcome to 17 place Vendôme! with that extra touch of soul that creates the Ritz Paris magic. Our Prestige Suites bring the hotel's historic beauty to life, paying tribute to the personalities who helped shape the myth of 15 Place Vendôme.
+                </p>
+                <button class="btn">book now</button>
+            </div>
+            <div class="intro__video">
+                <video src="Ritz Paris.mp4" autoplay loop muted></video>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container feature__container" id="feature">
+        <p class="section__subheader">SERVICES</p>
+        <h2 class="section__header">key attributes</h2>
+        <div class="feature__grid">
+            <div class="feature__card">
+                <span><i class="ri-thumb-up-line"></i></span>
+                <h4>get great reviews</h4>
+                <p>
+                    Service at the Ritz is top of the range, as expected at an establishment of this calibre, with staff effortlessly bending backwards to accommodate guests and make them feel at home. There are two restaurants and two bars, as well as dedicated salons for afternoon tea and brunch.
+                </p>
+            </div>
+            <div class="feature__card">
+                <span><i class="ri-time-line"></i></span>
+                <h4>paceful time</h4>
+                <p>
+                    We recognize that tranquility and undisturbed rest are crucial for a truly refreshing and rejuvenating experience.
+                </p>
+            </div>
+            <div class="feature__card">
+                <span><i class="ri-map-pin-line"></i></span>
+                <h4>strategic location</h4>
+                <p>
+                    The Ritz is tethered to the majestic Place Vendôme, with its canted corners that give it an octagonal aspect, surrounded by grand townhouse apartments and haute jewellery showrooms slotted in at the bottom. 
+                </p>
+            </div>
+            <div class="feature__card">
+                <span><i class="ri-hotel-bed-line"></i></span>
+                <h4>room reviews</h4>
+                <p>
+                    Following its extensive renovation in 2016, the Ritz now has 142 rooms split into eight room categories, as well as grand suites named after some of the hotel's most iconic guests, such as Coco Chanel and the Duke and Duchess of Windsor. All the rooms come in the hotel's classic opulent style.
+                </p>
+            </div>
+            <div class="feature__card">
+                <span><i class="ri-bank-card-line"></i></span>
+                <h4>payment options</h4>
+                <p>
+                    Reservations of Services are paid for by credit card (Visa, MasterCard or American Express) on the Website directly or via the secure payment link provided by the Ritz Paris to the email address indicated by the Customer or by bank transfer only.
+                </p>
+            </div>
+            <div class="feature__card">
+                <span><i class="ri-gift-2-line"></i></i></span>
+                <h4>gift card(ritz card)</h4>
+                <p>
+                    The gift card will be sent by postal mail to the recipient of your choice, accompanied by a personalized message and presented in an elegant packaging signed by Ritz Paris. The beneficiary will be able use this card as a payment method for their purchases for two years, within the limit of the available amount.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="menu" id="menu">
+        <div class="section__container menu__container">
+            <div class="menu__header">
+                <div>
+                    <p class="section__subheader">menu</p>
+                    <h2 class="section__header">Our Gourmet Menu</h2>
+                </div>
+                <div class="section__nav">
+                    <span><i class="ri-arrow-left-line"></i></span>
+                    <span><i class="ri-arrow-right-line"></i></span>
+                </div>
+            </div>
+            <ul class="menu__items">
+                <li>
+                    <img src="m1.jpg" alt="menu" />
+                    <div class="menu__details">
+                        <h4>eggs & bacon</h4>
+                        <p>
+                            eggs and bacon offer the perfect balance of rich flavors and satisfying textures. Crispy, golden-brown bacon provides a smoky, savory crunch, complementing the soft.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="m2.jpg" alt="menu" />
+                    <div class="menu__details">
+                        <h4>chia oatmeal</h4>
+                        <p>
+                            Chia oatmeal is a nutritious and delicious breakfast that combines the creamy texture of oats with the superfood benefits of chia seeds. Soaked overnight or cooked on the stovetop.
+                    </div>
+                </li>
+                <li>
+                    <img src="m3.jpg" alt="menu" />
+                    <div class="menu__details">
+                        <h4>coffee break</h4>
+                        <p>
+                            A coffee break is a cherished pause in the day, offering a moment of relaxation and rejuvenation. Whether enjoyed alone for a quiet recharge, it's the perfect time to savor a freshly brewed cup of coffee alongside a light snack.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="m4.jpg" alt="menu" />
+                    <div class="menu__details">
+                        <h4>fruit parfait</h4>
+                        <p>
+                            A fruit parfait is a delightful and refreshing treat that layers creamy yogurt, fresh fruit, and crunchy granola. Typically served in a glass, this visually appealing dish showcases vibrant berries, sliced bananas.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="m5.jpg" alt="menu" />
+                    <div class="menu__details">
+                        <h4>italian spaghetti</h4>
+                        <p>
+                            Italian spaghetti is a classic dish that embodies the simplicity and richness of Italian cuisine. slow-simmered tomato sauce made with ripe San Marzano tomatoes, garlic, fresh basil.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="m6.jpg" alt="menu" />
+                    <div class="menu__details">
+                        <h4>Grilled sea</h4>
+                        <p>
+                            Grilled sea bass with herb butter is a light, is seasoned simply with salt, pepper, and a drizzle of olive oil before being grilled to perfection.
+                        </p>
+                    </div>
+                </li>
+            </ul>      
+            <div class="menu__images">
+                <img src="m7.jpg" alt="menu" />
+                <img src="m8.jpg" alt="menu" />
+                <img src="m9.jpg" alt="menu" />
+            </div>
+            <ul class="menu__banner">
+                <li>
+                    <span><i class="ri-file-text-line"></i></span>
+                    <h4>84k</h4>
+                    <p>projects are completed</p>
+                </li>
+                <li>
+                    <span><i class="ri-user-line"></i></span>
+                    <h4>10m</h4>
+                    <p>active around world</p>
+                </li>
+                <li>
+                    <span><i class="ri-function-line"></i></span>
+                    <h4>02k</h4>
+                    <p>actegories served</p>
+                </li>
+                <li>
+                    <span><i class="ri-lightbulb-flash-line"></i></i></span>
+                    <h4>100m</h4>
+                    <p>ideas raised funds</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section__container news__container" id="news">
+        <div class="news__header">
+            <div>
+                <p class="section__subheader">blog</p>
+                <h2 class="section__header">news feeds</h2>
+            </div>
+            <div class="section__nav">
+                <span><i class="ri-arrow-left-line"></i></span>
+                <span><i class="ri-arrow-right-line"></i></span>
+            </div>
+        </div>
+        <div class="news__grid">
+            <div class="news__card">
+                <img src="m10.webp" alt="news">
+                <div class="news__card__title">
+                    <p>24th april 2024</p>
+                    <p>by soren</p>
+                </div>
+                <h4>Pool & Fitness</h4>
+                <p>This large, light-filled space promises precious moments of relaxation and well-being. On the program: a heavenly swim in the splendid indoor pool, with its distinct surrounding areas for relaxing in complete tranquility. Four high-tech fitness rooms, two of which are private.</p>
+            </div>
+            <div class="news__card">
+                <img src="m11.webp" alt="news">
+                <div class="news__card__title">
+                    <p>15th may 2024</p>
+                    <p>by laura</p>
+                </div>
+                <h4>David Mallett, the hair care salon</h4>
+                <p>At the Ritz Club & Spa, discover David Mallett's expertise and experience the Paris salon par excellence. The famous Australian hairdresser and his team of stylists welcome you in a confidential atmosphere for a tailor-made hair beauty treatment.</p>
+            </div>
+            <div class="news__card">
+                <img src="m12.webp" alt="news">
+                <div class="news__card__title">
+                    <p>11th january 2025</p>
+                    <p>by fred</p>
+                </div>
+                <h4>The Beauty Boutique</h4>
+                <p>Skincare, make-up, fragrances... the very best in beauty and well-being can be found in our elegant boutique at 17 place Vendôme, just a stone's throw from the entrance to the Ritz Paris. Designed in white with floral accents, the soft ambience invites you to experience the holistic expertise of the Ritz Club & Spa.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="logo footer__logo">
+                    <img src="logo.png">
+                    <span>HOTEL <br />RITZ</span>
+                </div>
+                <p class="section__description">
+                    Le Ritz Paris, fondé en 1898 sur la place Vendôme, est un symbole du luxe et de l'élégance. Cet hôtel légendaire a accueilli des célébrités comme Coco Chanel et Hemingway. Il offre des suites somptueuses, une gastronomie raffinée et un spa exclusif. Son bar Hemingway et son service d'exception en font une adresse mythique.
+                </p>
+                <ul class="footer__socials">
+                    <li>
+                        <a href="https://www.youtube.com/@theritzparis"><i class="ri-youtube-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ritzparis/"><i class="ri-instagram-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://web.facebook.com/ritzparis?locale=fr_FR"><i class="ri-facebook-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/ritz-paris/?originalSubdomain=fr"><i class="ri-linkedin-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>services</h4>
+                <div class="footer__links">
+                    <li><a href="#">onine booking</a></li>
+                    <li><a href="#">room customization</a></li>
+                    <li><a href="#">virtual tours</a></li>
+                    <li><a href="#">special offers</a></li>
+                    <li><a href="#">concierge services</a></li>
+                    <li><a href="#">customer support</a></li>
+                </div>
+                </div>
+            <div class="footer__col">
+                    <h4>contact us</h4>
+                    <div class="footer__links">
+                        <li>
+                            <span><i class="ri-phone-fill"></i></span>
+                            <div>
+                                <h5>phone number</h5>
+                                <p>+33 1 43 16 30 30</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span><i class="ri-record-mail-line"></i></span>
+                            <div>
+                                <h5>email</h5>
+                                <a href="mailto:yassinafi31@gmail.com">yassinafi31@gmail.com"</a>
+                            </div>
+                        </li>
+                        <li>
+                            <span><i class="ri-map-pin-fill"></i></i></span>
+                            <div>
+                                <h5>location</h5>
+                                <p>15 Pl. Vendôme, 75001 Paris, France</p>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bar">
+            copyright &copy; 2025 yassine project. all right reserved. 
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
